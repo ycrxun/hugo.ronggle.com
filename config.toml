@@ -2,8 +2,8 @@ baseURL = "http://localhost:1313/"
 languageCode = "zh-cn"
 defaultContentLanguage = "zh-cn"
 title = "佛系程序员"
-theme = "tranquilpeak"
-disqusShortname = "tranquilpeak"
+# theme = "tranquilpeak"
+disqusShortname = ""
 # googleAnalytics = "UA-123-45"
 paginate = 7
 canonifyurls = true
@@ -207,3 +207,12 @@ canonifyurls = true
   # Customize copyright value "© 2017 <CUSTOMIZATION>. All Rights Reserved"
   # [params.footer]
   #   copyright = "<a href=\"https://github.com/kakawait\">kakawait</a>"
+
+  # Gitalk comment.
+  [params.gitalk]
+    enabled = true
+    client = "a2f917f5cb45d6dffe92"
+    secret = "879169dfceea28b064c49ef7fd190cdafcc6e5a7"
+    repo = "ycrxun.github.io"
+    owner = "ycrxun"
+    admin = "ycrxun"

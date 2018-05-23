@@ -1,6 +1,6 @@
 ---
 title: 使用Docker打造自己的云平台
-date: 2018-05-13 18:00:59
+date: 2018-05-13T18:00:59+08:00
 thumbnailImagePosition: left
 thumbnailImage: /cloud-labs/monitor.png
 categories: 

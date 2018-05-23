@@ -1,6 +1,6 @@
 ---
 title: Fedora 桌面系统体验
-date: 2017-08-03 21:39:17
+date: 2017-08-03T21:39:17+08:00
 thumbnailImagePosition: left
 thumbnailImage: /fedora/home.png
 categories: 

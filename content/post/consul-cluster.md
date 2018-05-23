@@ -1,6 +1,6 @@
 ---
 title: consul学习二-集群
-date: 2018-01-15 21:42:19
+date: 2018-01-15T21:42:19+08:00
 thumbnailImagePosition: left
 thumbnailImage: /consul-first-time/consul-ui.png
 categories: 

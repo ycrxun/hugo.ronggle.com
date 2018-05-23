@@ -1,0 +1,15 @@
+{{ if .Site.Params.gitalk.enabled }}
+<div id="gitalk"></div>
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+<script>
+  var gitalk = new Gitalk({
+    clientID: "{{ .Site.Params.gitalk.client }}",
+    clientSecret: '{{ .Site.Params.gitalk.secret }}',
+    repo: '{{ .Site.Params.gitalk.repo }}',
+    owner: '{{ .Site.Params.gitalk.owner }}',
+    admin: '{{ .Site.Params.gitalk.admin }}',
+    distractionFreeMode: false
+  })
+  gitalk.render('gitalk')
+</script>
+{{ end }}

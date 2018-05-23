@@ -1,6 +1,6 @@
 ---
 title: consul学习一-初见
-date: 2018-01-07 19:38:00
+date: 2018-01-07T19:38:00+08:00
 thumbnailImagePosition: left
 thumbnailImage: /consul-first-time/consul-ui.png
 categories: 

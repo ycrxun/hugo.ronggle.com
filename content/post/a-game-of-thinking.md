@@ -1,6 +1,6 @@
 ---
 title: 一场王者农药引发的思考
-date: 2017-07-29 17:37:14
+date: 2017-07-29T17:37:14+08:00
 thumbnailImagePosition: left
 thumbnailImage: /a-game-of-thinking/game.png
 categories: 
