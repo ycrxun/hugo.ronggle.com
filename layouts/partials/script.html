@@ -1,11 +1,11 @@
 <!--EXTERNAL SCRIPTS-->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+<script src="https://cdn.bootcss.com/jquery/2.2.4/jquery.min.js"></script>
 {{ if eq .Site.Params.syntaxHighlighter "highlight.js" }}
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+  <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
 {{ else if eq .Site.Params.syntaxHighlighter "prism.js" }}
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.8.3/prism.min.js" integrity="sha256-haEv2ilTk2sXcJaGbkTtErRCHy/qGt3g+bGbgPf5OTY=" crossorigin="anonymous"></script>
+  <script src="https://cdn.bootcss.com/prism/1.8.3/prism.min.js"></script>
 {{ end }}
-<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.7/js/jquery.fancybox.min.js" integrity="sha256-GEAnjcTqVP+vBp3SSc8bEDQqvWAZMiHyUSIorrWwH50=" crossorigin="anonymous"></script>
+<script src="https://cdn.bootcss.com/fancybox/2.1.7/js/jquery.fancybox.min.js"></script>
 <!--EXTERNAL SCRIPTS END-->
 <!--SCRIPTS-->
 <script src="/js/script-qi9wbxp2ya2j6p7wx1i6tgavftewndznf4v0hy2gvivk1rxgc3lm7njqb6bz.min.js"></script>
@@ -61,8 +61,8 @@ $(document).ready(function() {
 {{ end }}
 {{ with .Site.Params.algolia }}
   {{ if (isset . "appId") | and (isset . "apiKey") | and (isset . "indexName") }}
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.19.1/moment-with-locales.min.js" integrity="sha256-TbOIe++NbC9P3KTtUMJ5wcROlBdnRqrPleLdpPg3xxE=" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/algoliasearch/3.24.5/algoliasearch.min.js" integrity="sha256-vUvLcn3X0cXhote4PNwW6d+fzjJR0hoD+yGFeVaElew=" crossorigin="anonymous"></script>
+    <script src="https://cdn.bootcss.com/moment.js/2.22.1/moment-with-locales.min.js"></script>
+    <script src="https://cdn.bootcss.com/algoliasearch/3.24.5/algoliasearch.min.js"></script>
     <script>
       var algoliaClient = algoliasearch('{{ .appId }}', '{{ .apiKey }}');
       var algoliaIndex = algoliaClient.initIndex('{{ .indexName }}');
@@ -79,7 +79,7 @@ $(document).ready(function() {
     m=f.getElementsByTagName('script')[0];
     o.async=1; o.src=t; o.id='fathom-script';
     m.parentNode.insertBefore(o,m)
-  })(document, window, 'http://usefathom.cloud.ronggle.com/tracker.js', 'fathom');
+  })(document, window, 'https://usefathom.cloud.ronggle.com/tracker.js', 'fathom');
   fathom('trackPageview');
  </script>
  <!-- / Fathom -->

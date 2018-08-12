@@ -58,6 +58,12 @@ canonifyurls = true
   url = "/archives"
 [[menu.main]]
   weight = 5
+  identifier = "resume"
+  name = "Resume"
+  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-file\"></i>"
+  url = "/resume"
+[[menu.main]]
+  weight = 6
   identifier = "about"
   name = "About"
   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-question\"></i>"
@@ -80,7 +86,7 @@ canonifyurls = true
   identifier = "twitter"
   name = "Twitter"
   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-twitter\"></i>"
-  url = "https://twitter.com/JeffYang57210446"
+  url = "https://twitter.com/ChangrongYang"
 
 [[menu.misc]]
   weight = 1
