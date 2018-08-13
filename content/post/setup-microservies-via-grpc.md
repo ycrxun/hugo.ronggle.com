@@ -2,7 +2,7 @@
 title: "使用gRPC开发微服务-开始"
 date: 2018-08-12T17:44:33+08:00
 thumbnailImagePosition: left
-thumbnailImage: /setup-microservies-via-grpc/grpc_inverse.svg
+thumbnailImage: /setup-microservies-via-grpc/grpc.svg
 categories: 
   - gRPC
 tags:

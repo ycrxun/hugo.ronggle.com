@@ -2,7 +2,7 @@
 title: "使用gRPC开发微服务-服务注册与发现"
 date: 2018-08-12T20:04:08+08:00
 thumbnailImagePosition: left
-thumbnailImage: /registry-microservies-via-grpc/grpc_inverse.svg
+thumbnailImage: /registry-microservies-via-grpc/consul.png
 categories: 
   - gRPC
 tags:
