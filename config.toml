@@ -213,7 +213,8 @@ canonifyurls = true
   # Customize copyright value "© 2017 <CUSTOMIZATION>. All Rights Reserved"
   # [params.footer]
   #   copyright = "<a href=\"https://github.com/kakawait\">kakawait</a>"
-
+  [params.footer]
+     icp = "黔ICP备15015267号"
   # Gitalk comment.
   [params.gitalk]
     enabled = true
