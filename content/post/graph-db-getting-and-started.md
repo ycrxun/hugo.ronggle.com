@@ -10,8 +10,6 @@ tags:
   - Graph
   - DGraph
   - Neo4j
-draft: true
-
 ---
 
 ## 关系型数据库
