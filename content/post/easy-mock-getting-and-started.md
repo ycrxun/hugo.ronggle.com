@@ -107,9 +107,9 @@ $ npm run dev
 
 ### 登录页
 
-![](/easy-mock-getting-and-started/login.png)
+![easy mock login](/easy-mock-getting-and-started/login.png)
 
-![](/easy-mock-getting-and-started/login-input.png)
+![easy mock login input](/easy-mock-getting-and-started/login-input.png)
 
 > 注意，这里如果你没有用户名和密码的话，直接输入用户名密码，会给新建一个用户
 
@@ -117,29 +117,29 @@ $ npm run dev
 
 登录成功后，进入我的个人项目面板。
 
-![](/easy-mock-getting-and-started/my-project.png)
+![easy mock project](/easy-mock-getting-and-started/my-project.png)
 
 点击项目可以查看项目接口列表。
 
-![](/easy-mock-getting-and-started/my-project-api.png)
+![easy mock project api](/easy-mock-getting-and-started/my-project-api.png)
 
 ### 团队项目
 
 - 首先，我们来初始化一个团队。
 
-![](/easy-mock-getting-and-started/my-team-new.png)
+![easy mock team](/easy-mock-getting-and-started/my-team-new.png)
 
 - 新建团队项目
 
-![](/easy-mock-getting-and-started/my-team-project-new.png)
+![easy mock team project](/easy-mock-getting-and-started/my-team-project-new.png)
 
 - 编辑项目API
 
-![](/easy-mock-getting-and-started/my-team-project-api-edit.png)
+![easy mock team project api](/easy-mock-getting-and-started/my-team-project-api-edit.png)
 
 - 预览项目API
 
-![](/easy-mock-getting-and-started/my-team-project-api-preview.png)
+![easy mock team project api previw](/easy-mock-getting-and-started/my-team-project-api-preview.png)
 
 ## 后语
 

@@ -19,7 +19,7 @@ tags:
 ## 目标
 
 开启Traefik的https服务。
-![](/traefik-https/console.png)
+![traefik console](/traefik-https/console.png)
 
 ## 前期准备
 

@@ -25,7 +25,7 @@ tags:
 ## 基本架构
 
 Consul是一个分布式，高度可用的系统。
-![](https://www.consul.io/assets/images/consul-arch-420ce04a.png)
+![consul](https://www.consul.io/assets/images/consul-arch-420ce04a.png)
 
 向Consul提供服务的每个节点都运行一个Consul代理。 发现其他服务或获取/设置键/值数据不需要运行代理。 代理负责健康检查节点上的服务以及节点本身。
 
@@ -162,4 +162,4 @@ bootstrap = true: do not enable unless necessary
 
 在浏览器中打开[http://localhost:8500](http://localhost:8500)
 
-![](/consul-first-time/consul-ui.png)
+![consul ui](/consul-first-time/consul-ui.png)

@@ -39,7 +39,7 @@ Protocol 2 spoken by default, understands 2 to 3 (agent will automatically use p
 
 Consul安装之后，运行Agent。
 Agent可以在server或client模式下运行。每个数据中心都必须至少有一个运行于serve，但推荐使用3台或5台服务器。
-![](/consul-cluster/consul-cluster.svg)
+![consul cluster](/consul-cluster/consul-cluster.svg)
 
 ### 启动leader
 
@@ -164,4 +164,4 @@ nohup consul agent -config-dir /etc/consul.d > /data/consul/log/server.log 2>&1 
 
 在浏览器中打开[http://192.168.42.33:8500](http://192.168.42.33:8500)
 
-![](/consul-cluster/consul-cluster-ui.png)
+![consul cluster ui](/consul-cluster/consul-cluster-ui.png)

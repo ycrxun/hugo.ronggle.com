@@ -17,7 +17,7 @@ tags:
 
 将应用程序用于向Zipkin报告时序数据。 Zipkin UI还提供了一个依赖关系图，显示了每个应用程序中跟踪的请求数量。 如果要解决延迟问题或错误，可以根据应用程序，跟踪长度，注释或时间戳来过滤或排序所有跟踪。 选择跟踪后，您可以看到每个跨度所需的总跟踪时间的百分比，从而允许您识别问题应用程序。
 
-![](/what-is-zipkin/index.png)
+![index](/what-is-zipkin/index.png)
 
 
 ## 快速开始
@@ -206,19 +206,19 @@ spring:
 
 首先，我分别启动了这几个模块，我们可以在Eureka的UI中看到：
 
-![](/what-is-zipkin/eureka.png)
+![eureka](/what-is-zipkin/eureka.png)
 
 然后我分别在浏览器中访问API Getaway中映射的API`http://localhost:9200/account/accounts/1`和`http://localhost:9200/config/platform/zuul/dev`，然后在打开Zipkin页面。
 
-![](/what-is-zipkin/trace.png)
+![trace](/what-is-zipkin/trace.png)
 
 我们可以看到服务调用的依赖关系：
 
-![](/what-is-zipkin/dependencies.png)
+![dependencies](/what-is-zipkin/dependencies.png)
 
 还可以看到调用的详细信息：
 
-![](/what-is-zipkin/traces_detail.png)
+![traces detail](/what-is-zipkin/traces_detail.png)
 
 ## 总结
 

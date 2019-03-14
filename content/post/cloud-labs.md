@@ -24,11 +24,11 @@ tags:
 
 使用Docker搭建一个自己的”云平台“，大概就是，可以在上面部署应用，并且自动暴露出来。
 
-![](/cloud-labs/monitor.png)
+![traefik](/cloud-labs/monitor.png)
 
-![](/cloud-labs/console.png)
+![potainer](/cloud-labs/console.png)
 
-![](/cloud-labs/console-services.png)
+![potainer services](/cloud-labs/console-services.png)
 
 ## 前期准备
 
@@ -46,7 +46,7 @@ tags:
 
 **Træfɪk** 是一个为了让部署微服务更加便捷而诞生的现代HTTP反向代理、负载均衡工具。 它支持多种后台 (Docker, Swarm, Kubernetes, Marathon, Mesos, Consul, Etcd, Zookeeper, BoltDB, Rest API, file…) 来自动化、动态的应用它的配置文件设置。
 
-![](/cloud-labs/traefik.png)
+![traefik](/cloud-labs/traefik.png)
 
 我们用它作什么呢？没错，反向代理和负载均衡，同时因为其提供了好用的动态功能，使得我们可以用它配置域名动态的功能。
 
@@ -160,7 +160,7 @@ $ docker stack deploy -c portainer.yml portainer
 ```
 稍等一会儿，就可以在使用`monitor.cloud-labs.io`中发现我们的应用以及部署好了，并且被暴露在`console.cloud-labs.io`。
 
-![](/cloud-labs/monitor-portainer.png)
+![traefik monitor portainer](/cloud-labs/monitor-portainer.png)
 
 > 同样的，`console.cloud-labs.io`是一个假定的域名，需要在你的host文件中进行配置。
 > $ cat /etc/hosts
@@ -176,7 +176,7 @@ $ docker stack deploy -c portainer.yml portainer
 
 登陆我们“云平台”的控制台后，选择stack，为们来编排一下我们的应用。
 
-![](/cloud-labs/portainer-stack-gitea.png)
+![portainer stack gitea](/cloud-labs/portainer-stack-gitea.png)
 
 ### 进入Traefik
 
@@ -186,7 +186,7 @@ $ docker stack deploy -c portainer.yml portainer
 
 配置完成gitea后我们可以看到如下：
 
-![](/cloud-labs/gitea.png)
+![gitea](/cloud-labs/gitea.png)
 
 ## 总结
 

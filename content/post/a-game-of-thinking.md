@@ -17,7 +17,7 @@ tags:
 
 扯远了，回到主题，前几天和小伙伴一起打排位，有生之年，最舒服的一次排位。从而有了下面的这些思考，纯属个人观点，不喜勿喷！额，其实也不会有人喷的。
 
-![](/a-game-of-thinking/game.png)
+![game](/a-game-of-thinking/game.png)
 
 ## 团队
 

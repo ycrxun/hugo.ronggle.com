@@ -22,25 +22,25 @@ tags:
 
 一张美美的桌面
 
-![](/fedora/home.png)
+![fedora home](/fedora/home.png)
 
 应用列表
 
-![](/fedora/apps.png)
+![fedora apps](/fedora/apps.png)
 
 弹出
 
-![](/fedora/super.png)
+![fedora pop](/fedora/super.png)
 
 多窗口
 
-![](/fedora/edit.png)
+![fedora edit](/fedora/edit.png)
 
 重命名
 
-![](/fedora/rename.png)
+![fedora rename](/fedora/rename.png)
 
 终端
-![](/fedora/terminal.png)
+![fedora terminal](/fedora/terminal.png)
 
 漂亮不？如果你也喜欢，安装个试试呗！

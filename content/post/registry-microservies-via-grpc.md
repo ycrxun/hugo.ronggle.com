@@ -305,7 +305,7 @@ INFO[0000] add serve at 0.0.0.0:8000
 INFO[0000] Regsitered service 'add' at consul.
 ```
 此时，我们打开consul的控制面板，可以看到服务已经注册到上面了
-![](/registry-microservies-via-grpc/consul.png)
+![consul](/registry-microservies-via-grpc/consul.png)
 
 在另一个终端启动client
 ```bash

@@ -32,11 +32,11 @@
       </a>
     {{ end }}
     <div class="postShorten-header">
-      <h1 class="postShorten-title" itemprop="headline">
+      <div class="postShorten-title" itemprop="headline">
         <a class="link-unstyled" href="{{ .Permalink }}">
           {{ .Title }}
         </a>
-      </h1>
+      </div>
       {{ partial "post/meta" . }}
     </div>
     <div class="postShorten-excerpt" itemprop="articleBody">
